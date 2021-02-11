@@ -6,6 +6,7 @@ public class Problem8 {
 	static int count = 0;
 
 	public static void main(String[] args) {
+		//This problem uses Node class of Problem 3.
 		Node root = new Node(0);
 		root.left= new Node(1);
 		root.right = new Node(0);
