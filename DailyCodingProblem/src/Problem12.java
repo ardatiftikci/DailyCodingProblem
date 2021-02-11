@@ -9,8 +9,6 @@ public class Problem12 {
 
 	public static void main(String[] args) {
 		p12();
-		List<Integer> stepSize = Arrays.asList(1,2);
-		System.out.println(countWays2(4,stepSize));
 	}
 
 	public static void p12() {
@@ -18,7 +16,7 @@ public class Problem12 {
 		System.out.printf("Number of unique ways you can climb the staircase (size %d) with step sizes 1 and 2 is %d.%n",N,countWays1(N));
 		N=5;
 		List<Integer> stepSize = Arrays.asList(1,3,5);
-		countWays2(N, stepSize);
+		System.out.printf("Number of unique ways you can climb the staircase (size %d) with step sizes "+ stepSize+ " is %d.%n",N,countWays2(N, stepSize));
 	}
 
 	private static int countWays1(int N) {
