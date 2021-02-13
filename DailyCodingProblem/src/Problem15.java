@@ -17,7 +17,7 @@ public class Problem15 {
 			count++;
 			randomSelectedNumber = randomSelect(bigStream[i], randomSelectedNumber, count);
 		}
-		
+
 		System.out.println("Randomly selected number is "+randomSelectedNumber);
 	}
 
